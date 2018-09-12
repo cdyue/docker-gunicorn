@@ -1,6 +1,6 @@
-FROM python:2.7
+FROM python:2.7.15-alpine3.8
 
-RUN pip install --no-cache-dir gunicorn==19.5.0
+RUN pip install --no-cache-dir gunicorn==19.7.1
 
 EXPOSE 8000
 
